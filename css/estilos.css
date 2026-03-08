@@ -1,0 +1,328 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ec0000, #020202);
+}
+
+.h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.center {
+    display: absolute;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#Nome {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background: #1e1e2f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Caixa principal */
+.h1,
+.atributos {
+    background: #2b2b40;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/* Inputs gerais */
+input {
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Quando clicar */
+input:focus {
+    outline: 2px solid #6c63ff;
+}
+
+/* ================= */
+/* TABELA DE PERÍCIAS */
+/* ================= */
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    background: #2b2b40;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Cabeçalho */
+th {
+    background: #3a3a55;
+    padding: 10px;
+}
+
+/* Células */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+/* Nome da perícia */
+td:first-child {
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* Inputs da tabela */
+table input {
+    width: 60px;
+    text-align: center;
+}
+
+/* Hover nas linhas */
+tr:hover {
+    background: #343454;
+}
+
+/* ================= */
+/* BOTÃO */
+/* ================= */
+
+.button {
+    text-decoration: none;
+}
+
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #5146e1;
+    transform: scale(1.05);
+}
+
+.status {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.status td {
+    padding: 8px;
+}
+
+.status tr:nth-child(1) {
+    background: red;
+    color: white;
+}
+
+.status tr:nth-child(2) {
+    background: #4c7bd9;
+}
+
+.status tr:nth-child(3) {
+    background: #f2b705;
+}
+
+.status tr:nth-child(4) {
+    background: #2fa84f;
+}
+
+.status tr:nth-child(5) {
+    background: #c23a2b;
+    color: white;
+}
+
+.status tr:nth-child(6) {
+    background: yellow;
+}
+
+.status tr:nth-child(7) {
+    background: #4c7bd9;
+}
+
+input {
+    width: 80px;
+}
+
+#importar {
+
+    background-color: #2c2c2c;
+    color: white;
+
+    padding: 10px 15px;
+
+    border: 2px solid #ff00aa;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    transition: all 0.3s ease;
+
+}
+
+#importar:hover {
+
+    background-color: #ff00aa;
+    color: black;
+
+    transform: scale(1.05);
+
+}
+
+#importar:active {
+
+    transform: scale(0.95);
+
+}
+
+.secao-personagem {
+
+    background: #f4e7c5;
+
+    border: 3px solid #c49b2c;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    width: 500px;
+
+    margin: 20px auto;
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.titulo-secao {
+
+    color: #8b0000;
+
+    text-align: center;
+
+    font-family: serif;
+
+    margin-top: 15px;
+
+}
+
+.secao-personagem textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 2px solid #c49b2c;
+
+    border-radius: 6px;
+
+    background: #fffdf5;
+
+    font-size: 14px;
+
+    resize: vertical;
+
+    margin-bottom: 15px;
+
+}
+
+.secao-personagem textarea:focus {
+
+    outline: none;
+
+    border-color: #8b0000;
+
+    box-shadow: 0 0 5px rgba(139, 0, 0, 0.5);
+
+}

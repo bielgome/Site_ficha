@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ficha RPG</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <h1>Ficha de Personagem</h1>
+
+    <div class="info">
+
+        <h2>Nome e Atributos</h2>
+
+        <label>Nome do personagem</label> <input type="text" id="nome">
+
+        <label>Idade</label> <input type="number" id="idade">
+
+        <label>Profissao</label> <input type="text" id="profissao">
+
+        <label>Altura</label> <input type="number" id="altura">
+
+    </div>
+    <br><br>
+
+    <div class="pericias">
+
+        <h2>Pericias</h2>
+
+        <table>
+
+            <tr>
+                <th>Pericia</th>
+                <th>Bonus</th>
+                <th>Maestria</th>
+                <th>Dado</th>
+            </tr>
+
+            <!DOCTYPE html>
+
+            <html lang="pt-br">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Ficha RPG</title>
+
+                <link rel="stylesheet" href="css/estilos.css">
+
+            </head>
+
+            <body>
+
+                <h1>Ficha de Personagem</h1>
+
+                <h2>Atributos</h2>
+
+                <label>Força</label> <input type="number" id="forca" value="0">
+
+                <label>Agilidade</label> <input type="number" id="agilidade" value="0">
+
+                <label>Presença</label> <input type="number" id="presenca" value="0">
+
+                <label>Intelecto</label> <input type="number" id="intelecto" value="0">
+
+                <label>Vigor</label> <input type="number" id="vigor" value="0">
+
+                <label>Mente</label> <input type="number" id="mente" value="0">
+
+                <br><br>
+
+                <h2>Perícias</h2>
+
+                <table border="1">
+
+                    <tr>
+                        <th>Perícia</th>
+                        <th>Bônus</th>
+                        <th>Maestria</th>
+                        <th>Rolar</th>
+                    </tr>
+
+                    <tr data-atributo="agilidade">
+                        <td>Acrobacia</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="intelecto">
+                        <td>Agricultura</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="forca">
+                        <td>Armas Brancas</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="agilidade">
+                        <td>Armas de Fogo</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="forca">
+                        <td>Arremesso</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="forca">
+                        <td>Atletismo</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="presenca">
+                        <td>Diplomacia</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="mente">
+                        <td>Investigação</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="mente">
+                        <td>Percepção</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                    <tr data-atributo="presenca">
+                        <td>Intimidação</td>
+                        <td><input type="number" class="bonus"></td>
+                        <td><input type="number" class="maestria"></td>
+                        <td><button class="rolar">🎲</button> <span class="resultado"></span></td>
+                    </tr>
+
+                </table>
+
+                <script src="script.js"></script>
+
+            </body>
+
+            </html>
+
+    </div>
+
+    <h2>Status</h2>
+
+    <table class="status">
+
+        <tr>
+            <td>Sangue</td>
+            <td><input type="number" id="sangue" value="100"> %</td>
+        </tr>
+
+        <tr>
+            <td>Defesa</td>
+            <td><input type="number" id="defesa"></td>
+        </tr>
+
+        <tr>
+            <td>Esquiva</td>
+            <td><input type="number" id="esquiva"></td>
+        </tr>
+
+        <tr>
+            <td>Bloqueio</td>
+            <td><input type="number" id="bloqueio"></td>
+        </tr>
+
+        <tr>
+            <td>Fadiga</td>
+            <td><input type="number" id="fadiga"></td>
+        </tr>
+
+        <tr>
+            <td>Fome</td>
+            <td><input type="number" id="fome"></td>
+        </tr>
+
+        <tr>
+            <td>Sede</td>
+            <td><input type="number" id="sede"></td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h2 style="text-align:center;color:#ff00aa;">INVENTÁRIO</h2>
+
+    <p>Capacidade de carga: <span id="capacidade">0</span></p>
+    <p>Peso total: <span id="pesoTotal">0</span></p>
+
+    <div>
+
+        <input type="text" id="itemNome" placeholder="Nome">
+
+        <input type="text" id="itemDescricao" placeholder="Descrição">
+
+        <input type="text" id="itemDano" placeholder="Dano (se arma)">
+
+        <input type="number" id="itemPeso" placeholder="Peso">
+
+        <button onclick="adicionarItem()">Adicionar</button>
+
+    </div>
+
+    <table border="1" id="tabelaInventario">
+
+        <tr>
+
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Dano</th>
+            <th>Peso</th>
+            <th>Ação</th>
+
+        </tr>
+
+    </table>
+
+
+    <br><br>
+    <div class="secao-personagem">
+
+        <h1 class="titulo-secao">História</h1>
+        <textarea id="historia" placeholder="Escreva a história do seu personagem..."></textarea>
+
+        <h1 class="titulo-secao">Aparência</h1>
+        <textarea id="aparencia" placeholder="Descreva a aparência do personagem..."></textarea>
+
+        <h1 class="titulo-secao">Anotações</h1>
+        <textarea id="anotacoes" placeholder="Anotações importantes..."></textarea>
+
+    </div>
+
+    <br><br>
+    <h2>Salvar / Carregar Ficha</h2>
+
+    <button onclick="exportarFicha()">📥 Baixar ficha</button>
+
+    <input class="button" type="file" id="importarFicha" onchange="importarFicha(event)">
+
+    <br><br>
+
+    <a href="index.html">
+        <button>Voltar para menu inicial</button>
+    </a>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

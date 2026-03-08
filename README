@@ -1,0 +1,84 @@
+# 🧙 Ficha de RPG Online
+
+Uma ficha de personagem de RPG feita em **HTML, CSS e JavaScript** que funciona diretamente no navegador.
+
+Este projeto foi criado para permitir que jogadores preencham e utilizem suas fichas de forma digital, com rolagem de dados automática e sistema de inventário.
+
+---
+
+## 🎲 Funcionalidades
+
+* Rolagem de dados automática (**d20**)
+* Sistema de **perícias com bônus e maestria**
+* Animação de rolagem de dados
+* **Inventário com sistema de peso**
+* Campo para:
+
+  * História do personagem
+  * Aparência
+  * Anotações
+* **Exportar ficha** para arquivo
+* **Importar ficha** para carregar novamente
+* Interface simples feita para RPG
+
+---
+
+## 🧰 Tecnologias usadas
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+
+---
+
+## 🎮 Como usar
+
+1. Abra o site da ficha.
+2. Preencha os **atributos do personagem**.
+3. Configure **bônus e maestria das perícias**.
+4. Clique no 🎲 para rolar os dados.
+5. Adicione itens no **inventário**.
+6. Use o botão de **exportar ficha** para salvar.
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+/ficha-rpg
+│
+├── index.html
+├── script.js
+├── estilos.css
+│
+└── assets (imagens ou ícones)
+```
+
+---
+
+## 💾 Exportar e Importar
+
+A ficha pode ser salva como arquivo `.json`.
+
+* **Exportar:** baixa a ficha no computador.
+* **Importar:** carrega uma ficha salva anteriormente.
+
+---
+
+## 🚀 Possíveis melhorias futuras
+
+* Sistema de **vida e status visual**
+* **Salvar automaticamente no navegador**
+* **Rolagem de dano das armas**
+* Interface mais estilizada
+* Sistema para **vários personagens**
+
+---
+
+## 👨‍💻 Autor
+
+Projeto criado como prática de programação e desenvolvimento web.
+
+---
+
+## 🎲 Divirta-se jogando!
