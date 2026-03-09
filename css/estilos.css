@@ -326,3 +326,29 @@ input {
     box-shadow: 0 0 5px rgba(139, 0, 0, 0.5);
 
 }
+
+.quadro {
+    animation: muda-cor 2s infinite linear;
+}
+
+@keyframes muda-cor {
+    0% {
+        background-color: #4287f5;
+    }
+
+    25% {
+        background-color: #4287f5;
+    }
+
+    50% {
+        background-color: #4e0399;
+    }
+
+    75% {
+        background-color: #3a1063;
+    }
+
+    100% {
+        background-color: #4287f5;
+    }
+}
