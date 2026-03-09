@@ -1,6 +1,8 @@
-# 🧙 Ficha de RPG Online
+# 🧙 Ficha de RPG Online e Regras
 
-Uma ficha de personagem de RPG feita em **HTML, CSS e JavaScript** que funciona diretamente no navegador.
+Esse prejeto é um livro de regras do rpg que estou criando e uma ficha
+
+Essa ficha de personagem de RPG e as regras feita em **HTML, CSS e JavaScript** que funciona diretamente no navegador.
 
 Este projeto foi criado para permitir que jogadores preencham e utilizem suas fichas de forma digital, com rolagem de dados automática e sistema de inventário.
 
@@ -40,19 +42,7 @@ Este projeto foi criado para permitir que jogadores preencham e utilizem suas fi
 5. Adicione itens no **inventário**.
 6. Use o botão de **exportar ficha** para salvar.
 
----
 
-## 📂 Estrutura do projeto
-
-```
-/ficha-rpg
-│
-├── index.html
-├── script.js
-├── estilos.css
-│
-└── assets (imagens ou ícones)
-```
 
 ---
 
@@ -72,11 +62,12 @@ A ficha pode ser salva como arquivo `.json`.
 * **Rolagem de dano das armas**
 * Interface mais estilizada
 * Sistema para **vários personagens**
-
+* Adição de **Mais Regras**
 ---
 
 ## 👨‍💻 Autor
-
+Gabriel
+email para suporte: gabrieldasilvagomes095@gmail.com
 Projeto criado como prática de programação e desenvolvimento web.
 
 ---
